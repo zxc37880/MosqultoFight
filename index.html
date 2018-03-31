@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SimpleQuery</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script>
+        $('h1').css({ 'color': 'red' });
+        $('#List').html('HTML List');
+        $('.item').css({ 'color': 'blue' });
+
+        $(document).ready(function () {
+            $('.slider').bxSlider();
+        });
+
+
+    </script>
+
+</head>
+
+<body>
+    <h1>SimpleQuery</h1>
+
+    <div id="List">List</div>
+    <p class="item">1</p>
+    <p class="item">2</p>
+    <p class="item">3</p>
+
+    <div class="slider">
+        <div>
+            <img src="./1.jpg">
+        </div>
+        <div>
+            <img src="./2.jpg">
+        </div>
+        <div>
+            <img src="./3.jpg">
+        </div>
+    </div>
+</body>
+
+</html>
